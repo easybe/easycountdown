@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	256AC3F00F4B6AF500CF3369 /* Countdown_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 596}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 149}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 5042475112CBC2780007704A /* Countdown */;
+		activeTarget = 8D1107260486CEB800E47090 /* Countdown */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Countdown */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 5042476312CBC28D0007704A /* Code sense */;
+		executables = (
+			5042475112CBC2780007704A /* Countdown */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					457,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					310,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 344465129;
+			PBXWorkspaceStateSaveDate = 344465129;
+		};
+		perUserProjectItems = {
+			5009D75914881EF2004C4194 /* PBXTextBookmark */ = 5009D75914881EF2004C4194 /* PBXTextBookmark */;
+			5016FF0412CE37990002789F = 5016FF0412CE37990002789F /* PBXTextBookmark */;
+			5016FF1C12CE38CB0002789F = 5016FF1C12CE38CB0002789F /* PBXTextBookmark */;
+			5016FF2212CE38E50002789F = 5016FF2212CE38E50002789F /* PBXTextBookmark */;
+			5016FF4812CE3F080002789F = 5016FF4812CE3F080002789F /* PBXTextBookmark */;
+			501A2E0612CE4A92008D9D7B = 501A2E0612CE4A92008D9D7B /* PBXTextBookmark */;
+			501A2E4112CE4E6D008D9D7B = 501A2E4112CE4E6D008D9D7B /* PBXTextBookmark */;
+			501A2E5212CE4FBD008D9D7B = 501A2E5212CE4FBD008D9D7B /* PBXTextBookmark */;
+			501A2EA612CE54FA008D9D7B = 501A2EA612CE54FA008D9D7B /* PBXTextBookmark */;
+			505028F312CE1824003107F1 = 505028F312CE1824003107F1 /* PBXTextBookmark */;
+			505028F512CE1824003107F1 = 505028F512CE1824003107F1 /* PBXTextBookmark */;
+			5050295812CE2AD1003107F1 = 5050295812CE2AD1003107F1 /* PBXTextBookmark */;
+			505311F112CCE3860042A0FB = 505311F112CCE3860042A0FB /* PBXTextBookmark */;
+			505311F212CCE3860042A0FB = 505311F212CCE3860042A0FB /* PBXTextBookmark */;
+			50A44C6012CE5B8700FA9A61 = 50A44C6012CE5B8700FA9A61 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5042476212CBC28D0007704A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 596}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 241}";
+		};
+	};
+	5009D75914881EF2004C4194 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5050291E12CE1A37003107F1 /* EZCountdown.m */;
+		name = "EZCountdown.m: 28";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 153;
+	};
+	5016FF0412CE37990002789F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5053120912CCE4AB0042A0FB /* CountdownAppDelegate.m */;
+		rLen = 0;
+		rLoc = 30;
+		rType = 1;
+	};
+	5016FF1C12CE38CB0002789F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5053124C12CCEB5F0042A0FB /* EZFireworks.h */;
+		name = "EZFireworks.h: 25";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 0;
+	};
+	5016FF2212CE38E50002789F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5053124D12CCEB5F0042A0FB /* EZFireworks.m */;
+		name = "EZFireworks.m: 32";
+		rLen = 0;
+		rLoc = 1084;
+		rType = 0;
+		vrLen = 1894;
+		vrLoc = 4076;
+	};
+	5016FF4812CE3F080002789F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5042476D12CBC35B0007704A /* CountdownAppDelegate.h */;
+		name = "CountdownAppDelegate.h: 21";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 560;
+		vrLoc = 0;
+	};
+	501A2E0612CE4A92008D9D7B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5042476E12CBC35B0007704A /* CountdownAppDelegate.m */;
+		name = "CountdownAppDelegate.m: 38";
+		rLen = 0;
+		rLoc = 1088;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 87;
+	};
+	501A2E4112CE4E6D008D9D7B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5050291E12CE1A37003107F1 /* EZCountdown.m */;
+		rLen = 0;
+		rLoc = 95;
+		rType = 1;
+	};
+	501A2E5212CE4FBD008D9D7B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 509676B712CCA9DC00F4CA00 /* EZCountdown.h */;
+		name = "EZCountdown.h: 26";
+		rLen = 0;
+		rLoc = 443;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	501A2EA612CE54FA008D9D7B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 509676B812CCA9DC00F4CA00 /* EZCountdown.m */;
+		name = "EZCountdown.m: 29";
+		rLen = 0;
+		rLoc = 807;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 153;
+	};
+	5042475112CBC2780007704A /* Countdown */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Countdown;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	5042476212CBC28D0007704A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5042476312CBC28D0007704A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5042476D12CBC35B0007704A /* CountdownAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 571}}";
+			sepNavSelRange = "{416, 0}";
+			sepNavVisRange = "{0, 560}";
+			sepNavWindowFrame = "{{15, 49}, {990, 729}}";
+		};
+	};
+	5042476E12CBC35B0007704A /* CountdownAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 897}}";
+			sepNavSelRange = "{1088, 0}";
+			sepNavVisRange = "{87, 1478}";
+			sepNavWindowFrame = "{{120, 49}, {990, 729}}";
+		};
+	};
+	505028F312CE1824003107F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 505028F412CE1824003107F1 /* MeasurementViewController.mm */;
+		name = "MeasurementViewController.mm: 33";
+		rLen = 138;
+		rLoc = 1205;
+		rType = 0;
+		vrLen = 1375;
+		vrLoc = 4846;
+	};
+	505028F412CE1824003107F1 /* MeasurementViewController.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = MeasurementViewController.mm;
+		path = /Users/easyb/Documents/hsr/Studienarbeit/iLCRmeter/trunk/Classes/MeasurementViewController.mm;
+		sourceTree = "<absolute>";
+	};
+	505028F512CE1824003107F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 505028F612CE1824003107F1 /* VoltageMeasurement.mm */;
+		name = "VoltageMeasurement.mm: 63";
+		rLen = 89;
+		rLoc = 1818;
+		rType = 0;
+		vrLen = 1468;
+		vrLoc = 1055;
+	};
+	505028F612CE1824003107F1 /* VoltageMeasurement.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = VoltageMeasurement.mm;
+		path = /Users/easyb/Documents/hsr/Studienarbeit/iLCRmeter/trunk/Classes/VoltageMeasurement.mm;
+		sourceTree = "<absolute>";
+	};
+	5050291E12CE1A37003107F1 /* EZCountdown.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = EZCountdown.m;
+		path = /Users/easyb/Documents/src/Cocoa/Countdown/Classes/EZCountdown.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {656, 1781}}";
+			sepNavSelRange = "{709, 0}";
+			sepNavVisRange = "{153, 1128}";
+		};
+	};
+	5050295812CE2AD1003107F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5050295912CE2AD1003107F1 /* AppDelegate.mm */;
+		name = "AppDelegate.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1530;
+		vrLoc = 0;
+	};
+	5050295912CE2AD1003107F1 /* AppDelegate.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = AppDelegate.mm;
+		path = /Users/easyb/Documents/hsr/Studienarbeit/src/iLCRmeter/Classes/AppDelegate.mm;
+		sourceTree = "<absolute>";
+	};
+	505311F112CCE3860042A0FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 241;
+		vrLoc = 0;
+	};
+	505311F212CCE3860042A0FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* Countdown_Prefix.pch */;
+		name = "Countdown_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 149;
+		vrLoc = 0;
+	};
+	5053120912CCE4AB0042A0FB /* CountdownAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CountdownAppDelegate.m;
+		path = /Users/easyb/Documents/src/Cocoa/Countdown/Classes/CountdownAppDelegate.m;
+		sourceTree = "<absolute>";
+	};
+	5053124C12CCEB5F0042A0FB /* EZFireworks.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 573}}";
+			sepNavSelRange = "{467, 0}";
+			sepNavVisRange = "{0, 606}";
+		};
+	};
+	5053124D12CCEB5F0042A0FB /* EZFireworks.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 2262}}";
+			sepNavSelRange = "{1084, 0}";
+			sepNavVisRange = "{4076, 1894}";
+		};
+	};
+	509676B712CCA9DC00F4CA00 /* EZCountdown.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 571}}";
+			sepNavSelRange = "{443, 0}";
+			sepNavVisRange = "{0, 478}";
+			sepNavWindowFrame = "{{15, 49}, {990, 729}}";
+		};
+	};
+	509676B812CCA9DC00F4CA00 /* EZCountdown.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {656, 1781}}";
+			sepNavSelRange = "{709, 0}";
+			sepNavVisRange = "{153, 1128}";
+			sepNavWindowFrame = "{{15, 49}, {990, 729}}";
+		};
+	};
+	50A44C6012CE5B8700FA9A61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 509676B812CCA9DC00F4CA00 /* EZCountdown.m */;
+		name = "EZCountdown.m: 28";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 153;
+	};
+	8D1107260486CEB800E47090 /* Countdown */ = {
+		activeExec = 0;
+		executables = (
+			5042475112CBC2780007704A /* Countdown */,
+		);
+	};
+}

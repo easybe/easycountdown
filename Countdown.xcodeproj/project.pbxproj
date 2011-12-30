@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		5042477012CBC35B0007704A /* CountdownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5042476E12CBC35B0007704A /* CountdownAppDelegate.m */; };
-		5053124E12CCEB5F0042A0FB /* EZFireworks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5053124D12CCEB5F0042A0FB /* EZFireworks.m */; };
 		5053126E12CCEF600042A0FB /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5053126D12CCEF600042A0FB /* Quartz.framework */; };
 		505312E912CCF1FC0042A0FB /* tspark.png in Resources */ = {isa = PBXBuildFile; fileRef = 505312E812CCF1FC0042A0FB /* tspark.png */; };
-		509676B912CCA9DC00F4CA00 /* EZCountdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 509676B812CCA9DC00F4CA00 /* EZCountdown.m */; };
+		5056F6FB14C9857000CDA401 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5056F6FA14C9857000CDA401 /* Defaults.plist */; };
+		506A01B614AF35D100C3A9F4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506A01B514AF35D100C3A9F4 /* QTKit.framework */; };
+		5078B62B148BF8800085A6BB /* CountdownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078B626148BF8800085A6BB /* CountdownAppDelegate.m */; };
+		5078B62C148BF8800085A6BB /* EZCountdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078B628148BF8800085A6BB /* EZCountdown.m */; };
+		5078B62D148BF8800085A6BB /* EZFireworks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078B62A148BF8800085A6BB /* EZFireworks.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -27,14 +29,16 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		5042476D12CBC35B0007704A /* CountdownAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountdownAppDelegate.h; path = Classes/CountdownAppDelegate.h; sourceTree = "<group>"; };
-		5042476E12CBC35B0007704A /* CountdownAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountdownAppDelegate.m; path = Classes/CountdownAppDelegate.m; sourceTree = "<group>"; };
-		5053124C12CCEB5F0042A0FB /* EZFireworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EZFireworks.h; path = ../../Cocoa/Countdown/Classes/EZFireworks.h; sourceTree = SOURCE_ROOT; };
-		5053124D12CCEB5F0042A0FB /* EZFireworks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EZFireworks.m; path = ../../Cocoa/Countdown/Classes/EZFireworks.m; sourceTree = SOURCE_ROOT; };
 		5053126D12CCEF600042A0FB /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		505312E812CCF1FC0042A0FB /* tspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tspark.png; sourceTree = "<group>"; };
-		509676B712CCA9DC00F4CA00 /* EZCountdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EZCountdown.h; path = Classes/EZCountdown.h; sourceTree = "<group>"; };
-		509676B812CCA9DC00F4CA00 /* EZCountdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EZCountdown.m; path = Classes/EZCountdown.m; sourceTree = "<group>"; };
+		5056F6FA14C9857000CDA401 /* Defaults.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Defaults.plist; sourceTree = "<group>"; };
+		506A01B514AF35D100C3A9F4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		5078B625148BF8800085A6BB /* CountdownAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountdownAppDelegate.h; path = Classes/CountdownAppDelegate.h; sourceTree = "<group>"; };
+		5078B626148BF8800085A6BB /* CountdownAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountdownAppDelegate.m; path = Classes/CountdownAppDelegate.m; sourceTree = "<group>"; };
+		5078B627148BF8800085A6BB /* EZCountdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EZCountdown.h; path = Classes/EZCountdown.h; sourceTree = "<group>"; };
+		5078B628148BF8800085A6BB /* EZCountdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EZCountdown.m; path = Classes/EZCountdown.m; sourceTree = "<group>"; };
+		5078B629148BF8800085A6BB /* EZFireworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EZFireworks.h; path = Classes/EZFireworks.h; sourceTree = "<group>"; };
+		5078B62A148BF8800085A6BB /* EZFireworks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EZFireworks.m; path = Classes/EZFireworks.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Countdown-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Countdown-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -46,6 +50,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				5053126E12CCEF600042A0FB /* Quartz.framework in Frameworks */,
+				506A01B614AF35D100C3A9F4 /* QTKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,12 +60,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5042476D12CBC35B0007704A /* CountdownAppDelegate.h */,
-				5042476E12CBC35B0007704A /* CountdownAppDelegate.m */,
-				509676B712CCA9DC00F4CA00 /* EZCountdown.h */,
-				509676B812CCA9DC00F4CA00 /* EZCountdown.m */,
-				5053124C12CCEB5F0042A0FB /* EZFireworks.h */,
-				5053124D12CCEB5F0042A0FB /* EZFireworks.m */,
+				5078B625148BF8800085A6BB /* CountdownAppDelegate.h */,
+				5078B626148BF8800085A6BB /* CountdownAppDelegate.m */,
+				5078B627148BF8800085A6BB /* EZCountdown.h */,
+				5078B628148BF8800085A6BB /* EZCountdown.m */,
+				5078B629148BF8800085A6BB /* EZFireworks.h */,
+				5078B62A148BF8800085A6BB /* EZFireworks.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -68,6 +73,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				506A01B514AF35D100C3A9F4 /* QTKit.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -116,6 +122,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5056F6FA14C9857000CDA401 /* Defaults.plist */,
 				505312E812CCF1FC0042A0FB /* tspark.png */,
 				8D1107310486CEB800E47090 /* Countdown-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -186,6 +193,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				505312E912CCF1FC0042A0FB /* tspark.png in Resources */,
+				5056F6FB14C9857000CDA401 /* Defaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,9 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				5042477012CBC35B0007704A /* CountdownAppDelegate.m in Sources */,
-				509676B912CCA9DC00F4CA00 /* EZCountdown.m in Sources */,
-				5053124E12CCEB5F0042A0FB /* EZFireworks.m in Sources */,
+				5078B62B148BF8800085A6BB /* CountdownAppDelegate.m in Sources */,
+				5078B62C148BF8800085A6BB /* EZCountdown.m in Sources */,
+				5078B62D148BF8800085A6BB /* EZFireworks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

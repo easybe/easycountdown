@@ -1,10 +1,5 @@
-//
-//  CountdownAppDelegate.h
-//  Countdown
-//
-//  Created by Ezra Bühler on 29.12.10.
-//  Copyright 2010 HSR. All rights reserved.
-//
+// Easy's Countdown
+// 2010-2012 easyb
 
 #import <Cocoa/Cocoa.h>
 
@@ -14,9 +9,13 @@
 @interface CountdownAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
     NSView *mainView;
-    
+    QTMovieView *movieView;
+
+    NSUserDefaults *defaults;
+    QTMovie *movie;
+
     IBOutlet NSTextField *timeView;
-    
+
     EZCountdown *countdown;
     EZFireworks *fireworks;
 }
@@ -25,5 +24,8 @@
 @property (assign) IBOutlet NSView *mainView;
 
 - (IBAction)toggleFullScreen:(id)sender;
+- (IBAction)selectMoviePath:(id)sender;
+- (void)showMovie;
+- (void)setMoviePath:(NSOpenPanel*)panel returnCode:(int)returnCode contextInfo:(void *)contextInfo;
 
 @end

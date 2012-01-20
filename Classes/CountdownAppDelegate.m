@@ -51,7 +51,13 @@
     [movieView setMovie:movie];
     [movieView setPreservesAspectRatio:YES];
 
+    // TODO: find better solution
     window.contentView = movieView;
+
+    if ([mainView isInFullScreenMode]) {
+        [window.contentView enterFullScreenMode:[NSScreen mainScreen] withOptions:nil];
+        [mainView exitFullScreenModeWithOptions:nil];
+    }
 }
 
 - (IBAction)toggleFullScreen:(id)sender {

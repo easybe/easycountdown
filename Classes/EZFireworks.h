@@ -5,7 +5,6 @@
 #import <QuartzCore/QuartzCore.h>
 #import <QuartzCore/CoreAnimation.h>
 
-
 @interface EZFireworks : NSObject {
     NSView *theView;
 

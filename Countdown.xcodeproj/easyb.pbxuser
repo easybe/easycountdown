@@ -87,8 +87,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 348760479;
-			PBXWorkspaceStateSaveDate = 348760479;
+			PBXPerProjectTemplateStateSaveDate = 348762577;
+			PBXWorkspaceStateSaveDate = 348762577;
 		};
 		perUserProjectItems = {
 			505028F312CE1824003107F1 = 505028F312CE1824003107F1 /* PBXTextBookmark */;
@@ -371,9 +371,9 @@
 		fRef = 5078B626148BF8800085A6BB /* CountdownAppDelegate.m */;
 		name = "CountdownAppDelegate.m: 116";
 		rLen = 0;
-		rLoc = 3891;
+		rLoc = 3885;
 		rType = 0;
-		vrLen = 1143;
+		vrLen = 1107;
 		vrLoc = 2778;
 	};
 	50F9FCF414C9A45D00027C27 /* PBXTextBookmark */ = {
@@ -381,7 +381,7 @@
 		fRef = 5078B626148BF8800085A6BB /* CountdownAppDelegate.m */;
 		name = "CountdownAppDelegate.m: 116";
 		rLen = 0;
-		rLoc = 3891;
+		rLoc = 3885;
 		rType = 0;
 		vrLen = 1526;
 		vrLoc = 0;

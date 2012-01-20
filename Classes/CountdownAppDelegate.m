@@ -70,10 +70,10 @@
         //[countdown centerText];
     }
 
-    NSLog(@"view height:%f", [window.contentView frame].size.height);
+    /*NSLog(@"view height:%f", [window.contentView frame].size.height);
     NSLog(@"view width:%f", [window.contentView frame].size.width);
     NSLog(@"screen height:%f", [[NSScreen mainScreen] frame].size.height);
-    NSLog(@"screen width:%f", [[NSScreen mainScreen] frame].size.width);
+    NSLog(@"screen width:%f", [[NSScreen mainScreen] frame].size.width);*/
 }
 
 - (IBAction)selectMoviePath:(id)sender {
@@ -106,7 +106,7 @@
 
 }
 
-//Quit app when the window is closed
+// Quit app when the window is closed
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
     return YES;
 }

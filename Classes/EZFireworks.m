@@ -9,16 +9,16 @@
 
     theView = aView;
 
-    //Create the root layer
+    // Create the root layer
     rootLayer = [CALayer layer];
 
-    //Set the root layer's attributes
+    // Set the root layer's attributes
     rootLayer.bounds = aRect;
     CGColorRef color = CGColorCreateGenericRGB(0.0, 0.0, 0.0, 1);
     rootLayer.backgroundColor = color;
     CGColorRelease(color);
 
-    //Load the spark image for the particle
+    // Load the spark image for the particle
     const char* fileName = [[[NSBundle mainBundle] pathForResource:@"tspark" ofType:@"png"] UTF8String];
     CGDataProviderRef dataProvider = CGDataProviderCreateWithFilename(fileName);
     id img = (id) CGImageCreateWithPNGDataProvider(dataProvider, NULL, NO, kCGRenderingIntentDefault);
@@ -27,7 +27,7 @@
     mortor.emitterPosition = CGPointMake(aRect.size.width / 2, 0);
     mortor.renderMode = kCAEmitterLayerAdditive;
 
-    //Invisible particle representing the rocket before the explosion
+    // Invisible particle representing the rocket before the explosion
     CAEmitterCell *rocket = [[CAEmitterCell emitterCell] retain];
     rocket.emissionLongitude = M_PI / 2;
     rocket.emissionLatitude = 0;
@@ -44,10 +44,10 @@
     rocket.greenRange = 0.5;
     rocket.blueRange = 0.5;
 
-    //Name the cell so that it can be animated later using keypath
+    // Name the cell so that it can be animated later using keypath
     [rocket setName:@"rocket"];
 
-    //Flare particles emitted from the rocket as it flys
+    // Flare particles emitted from the rocket as it flys
     CAEmitterCell *flare = [CAEmitterCell emitterCell];
     flare.contents = img;
     flare.emissionLongitude = (4 * M_PI) / 2;
@@ -63,7 +63,7 @@
     flare.beginTime = 0.01;
     flare.duration = 0.7;
 
-    //The particles that make up the explosion
+    // The particles that make up the explosion
     CAEmitterCell *firework = [CAEmitterCell emitterCell];
     firework.contents = img;
     firework.birthRate = 9999;
@@ -78,10 +78,10 @@
     firework.scaleSpeed = -0.1;
     firework.spin = 2;
 
-    //Name the cell so that it can be animated later using keypath
+    // Name the cell so that it can be animated later using keypath
     [firework setName:@"firework"];
 
-    //preSpark is an invisible particle used to later emit the spark
+    // preSpark is an invisible particle used to later emit the spark
     CAEmitterCell *preSpark = [CAEmitterCell emitterCell];
     preSpark.birthRate = 80;
     preSpark.velocity = firework.velocity * 0.70;
@@ -93,10 +93,10 @@
     preSpark.blueSpeed = 100;
     preSpark.redSpeed = 100;
 
-    //Name the cell so that it can be animated later using keypath
+    // Name the cell so that it can be animated later using keypath
     [preSpark setName:@"preSpark"];
 
-    //The 'sparkle' at the end of a firework
+    // The 'sparkle' at the end of a firework
     CAEmitterCell *spark = [CAEmitterCell emitterCell];
     spark.contents = img;
     spark.lifetime = 0.05;
@@ -122,11 +122,11 @@
 
     animationSpeed = [[NSNumber alloc] initWithInt:100];
 
-    //Set the view's layer to the base layer
+    // Set the view's layer to the base layer
     [theView setLayer:rootLayer];
     [theView setWantsLayer:YES];
 
-    //Force the view to update
+    // Force the view to update
     [theView setNeedsDisplay:YES];
 
     [super init];

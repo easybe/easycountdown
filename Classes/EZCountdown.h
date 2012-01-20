@@ -3,10 +3,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-
 @interface EZCountdown : NSObject {
     NSTimer *timer;
-    //NSDate *targetDate;
     NSTimeInterval end;
 
     NSTextField *timeView;

@@ -3,7 +3,6 @@
 
 #import "EZCountdown.h"
 
-
 @implementation EZCountdown
 
 - (id)initWithView:(NSView *)aView {
@@ -43,7 +42,7 @@
     int hours = (diff / 3600) % 24;
     int days = (diff / (3600 * 24));
 
-    NSString *output = @"Hello!";
+    NSString *output;
 
     if (days > 0) {
         output = [NSString stringWithFormat:@"%d:%02d:%02d:%02d", days, hours, minutes, seconds];

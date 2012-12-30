@@ -12,9 +12,9 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="536"/>
 			<integer value="570"/>
 			<integer value="57"/>
-			<integer value="536"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -239,7 +239,7 @@
 					<object class="NSTextField" id="379740929">
 						<reference key="NSNextResponder" ref="505658743"/>
 						<int key="NSvFlags">303</int>
-						<string key="NSFrame">{{-3, 107}, {1285, 340}}</string>
+						<string key="NSFrame">{{17, 199}, {1246, 340}}</string>
 						<reference key="NSSuperview" ref="505658743"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="999377382">
@@ -273,7 +273,7 @@
 						</object>
 					</object>
 				</object>
-				<string key="NSFrameSize">{1279, 556}</string>
+				<string key="NSFrameSize">{1280, 707}</string>
 				<reference key="NSSuperview"/>
 				<string key="NSClassName">NSView</string>
 			</object>
@@ -1120,6 +1120,7 @@
 					<string>537.IBViewIntegration.shadowColor</string>
 					<string>537.IBViewIntegration.shadowOffsetHeight</string>
 					<string>537.IBViewIntegration.shadowOffsetWidth</string>
+					<string>538.CustomClassName</string>
 					<string>538.IBPluginDependency</string>
 					<string>540.IBEditorWindowLastContentRect</string>
 					<string>540.IBPluginDependency</string>
@@ -1214,7 +1215,7 @@
 					<string>{{475, 832}, {234, 43}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{493, 141}, {1279, 556}}</string>
+					<string>{{0, 49}, {1280, 707}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<real value="0.0"/>
 					<reference ref="272817054"/>
@@ -1222,12 +1223,13 @@
 					<real value="18"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAADAQAAAxCQAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABD4wAAw+gAAA</bytes>
 					</object>
 					<real value="0.0"/>
 					<reference ref="272817054"/>
 					<real value="50"/>
 					<real value="50"/>
+					<string>MDVerticallyCenteredTextFieldCell</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>{{83, 66}, {1181, 512}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1405,6 +1407,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">Classes/CountdownAppDelegate.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">MDVerticallyCenteredTextFieldCell</string>
+					<string key="superclassName">NSTextFieldCell</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Classes/MDVerticallyCenteredTextFieldCell.h</string>
 					</object>
 				</object>
 			</object>

@@ -1,5 +1,5 @@
 // Easy's Countdown
-// 2010-2012 easyb
+// 2010-2013 easyb
 
 #import "EZCountdown.h"
 
@@ -68,37 +68,7 @@
         [[NSNotificationCenter defaultCenter] postNotificationName:@"countdownDidEnd" object:nil];
     }
 
-    //[self centerText];
-
     [timeView setStringValue:output];
-}
-
-// FIXME:
-- (void)centerText {
-    NSSize size;
-    NSRect frame;
-
-    NSRect frame2 = [timeView frame];
-
-    //NSLog(@"view height: %f, width: %f", frame.size.w)
-
-    [timeView sizeToFit];
-
-    NSRect frame1 = [timeView frame];
-
-    int textHeight = [timeView frame].size.height;
-
-    int y = (viewSize.height - textHeight) / 2;
-
-    size.width = viewSize.width;
-    size.height = textHeight;
-
-    frame.origin.x = 0;
-    frame.origin.y = y;
-
-    frame.size = size;
-
-    [timeView setFrame:frame];
 }
 
 - (void)stop {

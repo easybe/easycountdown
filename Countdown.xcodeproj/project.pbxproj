@@ -15,6 +15,7 @@
 		5078B62B148BF8800085A6BB /* CountdownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078B626148BF8800085A6BB /* CountdownAppDelegate.m */; };
 		5078B62C148BF8800085A6BB /* EZCountdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078B628148BF8800085A6BB /* EZCountdown.m */; };
 		5078B62D148BF8800085A6BB /* EZFireworks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078B62A148BF8800085A6BB /* EZFireworks.m */; };
+		50D342271691E977009CEDCA /* MDVerticallyCenteredTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D342261691E977009CEDCA /* MDVerticallyCenteredTextFieldCell.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -39,6 +40,8 @@
 		5078B628148BF8800085A6BB /* EZCountdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EZCountdown.m; path = Classes/EZCountdown.m; sourceTree = "<group>"; };
 		5078B629148BF8800085A6BB /* EZFireworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EZFireworks.h; path = Classes/EZFireworks.h; sourceTree = "<group>"; };
 		5078B62A148BF8800085A6BB /* EZFireworks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EZFireworks.m; path = Classes/EZFireworks.m; sourceTree = "<group>"; };
+		50D342251691E977009CEDCA /* MDVerticallyCenteredTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDVerticallyCenteredTextFieldCell.h; path = Classes/MDVerticallyCenteredTextFieldCell.h; sourceTree = "<group>"; };
+		50D342261691E977009CEDCA /* MDVerticallyCenteredTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDVerticallyCenteredTextFieldCell.m; path = Classes/MDVerticallyCenteredTextFieldCell.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Countdown-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Countdown-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,6 +69,8 @@
 				5078B628148BF8800085A6BB /* EZCountdown.m */,
 				5078B629148BF8800085A6BB /* EZFireworks.h */,
 				5078B62A148BF8800085A6BB /* EZFireworks.m */,
+				50D342251691E977009CEDCA /* MDVerticallyCenteredTextFieldCell.h */,
+				50D342261691E977009CEDCA /* MDVerticallyCenteredTextFieldCell.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				5078B62B148BF8800085A6BB /* CountdownAppDelegate.m in Sources */,
 				5078B62C148BF8800085A6BB /* EZCountdown.m in Sources */,
 				5078B62D148BF8800085A6BB /* EZFireworks.m in Sources */,
+				50D342271691E977009CEDCA /* MDVerticallyCenteredTextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

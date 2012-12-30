@@ -1,5 +1,5 @@
 // Easy's Countdown
-// 2010-2012 easyb
+// 2010-2013 easyb
 
 #import <QTKit/QTKit.h>
 
@@ -63,17 +63,9 @@
 - (IBAction)toggleFullScreen:(id)sender {
     if ([window.contentView isInFullScreenMode] == NO) {
         [window.contentView enterFullScreenMode:[NSScreen mainScreen] withOptions:nil];
-        //[mainView setFrameSize:[[NSScreen mainScreen] frame].size];
-        //[countdown centerText];
     } else {
         [window.contentView exitFullScreenModeWithOptions:nil];
-        //[countdown centerText];
     }
-
-    /*NSLog(@"view height:%f", [window.contentView frame].size.height);
-    NSLog(@"view width:%f", [window.contentView frame].size.width);
-    NSLog(@"screen height:%f", [[NSScreen mainScreen] frame].size.height);
-    NSLog(@"screen width:%f", [[NSScreen mainScreen] frame].size.width);*/
 }
 
 - (IBAction)selectMoviePath:(id)sender {

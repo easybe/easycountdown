@@ -1,5 +1,5 @@
 // Easy's Countdown
-// 2010-2012 easyb
+// 2010-2013 easyb
 
 #import "EZFireworks.h"
 

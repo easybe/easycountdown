@@ -26,6 +26,12 @@
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(countdownDidEnd:) name:@"countdownDidEnd" object:nil];
     defaults = [NSUserDefaults standardUserDefaults];
+
+    //font = [NSFont boldSystemFontOfSize:12];
+    NSString *fontName = @"Courier";
+    float fontScale = 150;
+
+    font = [NSFont fontWithName:fontName size:fontScale];
 }
 
 - (void)countdownDidEnd:(NSNotification *) notification {
@@ -94,8 +100,29 @@
     [defaults setValue:[url path] forKey:@"moviePath"];
 }
 
-- (void)applicationWillTerminate:(NSNotification *)notification {
+- (IBAction)showFontMenu:(id)sender {
+    NSFontManager *fontManager = [NSFontManager sharedFontManager];
+    [fontManager setDelegate:self];
 
+    NSFontPanel *fontPanel = [fontManager fontPanel:YES];
+    [fontPanel makeKeyAndOrderFront:sender];
+}
+
+- (void)changeFont:(id)sender {
+    //NSLog(@"%@", [sender description]);
+    //NSFontManager *fontManager = [NSFontManager sharedFontManager];
+    //NSFont *oldFont = [font copy];
+    //font = [sender convertFont:font];
+    NSLog(@"%@", font.fontName);
+}
+
+- (void)applicationWillTerminate:(NSNotification *)notification {
+    NSFontManager *fontManager = [NSFontManager sharedFontManager];
+    //NSFont *f = [fontManager convertFont:[fontManager selectedFont]];
+    NSFont *f = [fontManager selectedFont];
+
+    //NSLog(@"sender: %@", [[sender selectedFont] description]);
+    NSLog(@"font %@, %d", [f fontName], [f pointSize]);
 }
 
 // Quit app when the window is closed

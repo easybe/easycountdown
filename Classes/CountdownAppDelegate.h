@@ -18,6 +18,8 @@
 
     EZCountdown *countdown;
     EZFireworks *fireworks;
+
+    NSFont *font;
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -27,5 +29,6 @@
 - (IBAction)selectMoviePath:(id)sender;
 - (void)showMovie;
 - (void)setMoviePath:(NSOpenPanel*)panel returnCode:(int)returnCode contextInfo:(void *)contextInfo;
+- (IBAction)showFontMenu:(id)sender;
 
 @end

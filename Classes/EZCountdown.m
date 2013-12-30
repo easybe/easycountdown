@@ -18,19 +18,16 @@
     defaults = [NSUserDefaults standardUserDefaults];
     end = [[defaults objectForKey:@"endDate"] timeIntervalSinceReferenceDate];
 
-    fontName = @"Courier";
-    fontScale = 150;
-
-    NSFont *font = [NSFont fontWithName:fontName size:fontScale];
-
-    [timeView setFont:font];
-
     viewSize = [theView frame].size;
 
     return self;
 }
 
 - (void)tick {
+    NSString *fontName = [defaults objectForKey:@"fontName"];
+    float fontBaseSize = [defaults floatForKey:@"fontSize"];
+    [timeView setFont:[NSFont fontWithName:fontName size:fontBaseSize]];
+
     NSTimeInterval now = [NSDate timeIntervalSinceReferenceDate];
     end = [[defaults objectForKey:@"endDate"] timeIntervalSinceReferenceDate];
 
@@ -49,20 +46,20 @@
     } else if (hours > 0) {
         output = [NSString stringWithFormat:@"%d:%02d:%02d", hours, minutes, seconds];
     } else if (minutes > 0) {
-        [timeView setFont:[NSFont fontWithName:fontName size:fontScale * 1.25]];
+        [timeView setFont:[NSFont fontWithName:fontName size:fontBaseSize * 1.25]];
         output = [NSString stringWithFormat:@"%d:%02d", minutes, seconds];
     } else if (seconds > 0) {
 
         if (seconds >= 10) {
-            [timeView setFont:[NSFont fontWithName:fontName size:fontScale * 1.5]];
+            [timeView setFont:[NSFont fontWithName:fontName size:fontBaseSize * 1.5]];
         } else {
-            [timeView setFont:[NSFont fontWithName:fontName size:fontScale * 2]];
+            [timeView setFont:[NSFont fontWithName:fontName size:fontBaseSize * 2]];
         }
 
         output = [NSString stringWithFormat:@"%d", seconds];
     } else {
         [self stop];
-        [timeView setFont:[NSFont fontWithName:fontName size:fontScale / 2]];
+        [timeView setFont:[NSFont fontWithName:fontName size:fontBaseSize / 2]];
         [timeView setTextColor:[NSColor whiteColor]];
         output = [defaults stringForKey:@"endMsg"];
         [[NSNotificationCenter defaultCenter] postNotificationName:@"countdownDidEnd" object:nil];

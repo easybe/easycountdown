@@ -12,9 +12,6 @@
 
     NSSize viewSize;
 
-    NSString *fontName;
-    int fontScale;
-
     NSUserDefaults *defaults;
 }
 - (id)initWithView:(NSView *)aView;

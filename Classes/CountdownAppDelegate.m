@@ -28,6 +28,16 @@
     defaults = [NSUserDefaults standardUserDefaults];
 }
 
+- (void)changeFont:(id)sender {
+    NSFontManager *fontManager = [NSFontManager sharedFontManager];
+    NSFont *oldFont = [NSFont fontWithName:[defaults objectForKey:@"fontName"]
+                              size:[defaults integerForKey:@"fontSize"]];
+    NSFont *font = [fontManager convertFont:oldFont];
+    [defaults setValue:font.fontName forKey:@"fontName"];
+    [defaults setValue:[NSNumber numberWithFloat:font.pointSize] forKey:@"fontSize"];
+    return;
+}
+
 - (void)countdownDidEnd:(NSNotification *) notification {
     NSRect screenRect = [[NSScreen mainScreen] frame];
 

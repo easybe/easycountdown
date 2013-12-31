@@ -135,6 +135,8 @@
 }
 
 - (void)dealloc {
+    [theView setWantsLayer:NO];
+
     [CAEmitterLayer release];
 
     [rocketRange release];

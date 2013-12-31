@@ -19,12 +19,23 @@
     [defaults registerDefaults:defaultsDict];
 }
 
+- (IBAction)restartCountdown:(id)sender {
+    if (fireworks) {
+        [fireworks release];
+        fireworks = 0;
+        [countdown release];
+        countdown = [[EZCountdown alloc] initWithView:mainView];
+    }
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)notification {
     [window setContentView:mainView];
 
     countdown = [[EZCountdown alloc] initWithView:mainView];
 
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(countdownDidEnd:) name:@"countdownDidEnd" object:nil];
+    [[NSNotificationCenter defaultCenter]
+        addObserver:self selector:@selector(countdownDidEnd:) name:@"countdownDidEnd"
+        object:nil];
     defaults = [NSUserDefaults standardUserDefaults];
 }
 

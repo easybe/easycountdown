@@ -17,6 +17,8 @@
 
     viewSize = [theView frame].size;
 
+    [timeView setTextColor:[NSColor blackColor]];
+
     defaults = [NSUserDefaults standardUserDefaults];
 
     return self;
@@ -73,7 +75,6 @@
 }
 
 - (void)dealloc {
-    [timeView release];
     [super dealloc];
 }
 

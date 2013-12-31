@@ -15,10 +15,9 @@
     timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(tick)
                      userInfo:NULL repeats:YES];
 
-    defaults = [NSUserDefaults standardUserDefaults];
-    end = [[defaults objectForKey:@"endDate"] timeIntervalSinceReferenceDate];
-
     viewSize = [theView frame].size;
+
+    defaults = [NSUserDefaults standardUserDefaults];
 
     return self;
 }
@@ -29,7 +28,7 @@
     [timeView setFont:[NSFont fontWithName:fontName size:fontBaseSize]];
 
     NSTimeInterval now = [NSDate timeIntervalSinceReferenceDate];
-    end = [[defaults objectForKey:@"endDate"] timeIntervalSinceReferenceDate];
+    end = [[defaults objectForKey:@"endDate"] timeIntervalSinceReferenceDate] + 1;
 
     NSTimeInterval interval = end - now;
     int diff = (int)interval;

@@ -64,6 +64,9 @@
 - (void)showMovie {
     NSString *fileName = [defaults stringForKey:@"moviePath"];
     movie = [QTMovie movieWithFile:fileName error:nil];
+    NSDictionary *attrs = [[NSDictionary alloc] initWithObjectsAndKeys:[NSNumber numberWithBool:YES],
+                                                @"QTMovieLoopsAttribute", nil];
+    [movie setMovieAttributes:attrs];
     [movie autoplay];
 
     NSRect screenRect = [[NSScreen mainScreen] frame];

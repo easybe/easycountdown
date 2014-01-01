@@ -1,5 +1,5 @@
 // Easy's Countdown
-// 2010-2013 easyb
+// 2010-2014 easyb
 
 #import <Cocoa/Cocoa.h>
 #import <QuartzCore/QuartzCore.h>

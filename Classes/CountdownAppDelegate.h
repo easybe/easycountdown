@@ -27,6 +27,8 @@
 - (IBAction)toggleFullScreen:(id)sender;
 - (IBAction)selectMoviePath:(id)sender;
 - (void)changeFont:(id)sender;
+- (void)changeAttributes:(id)sender;
+- (void)changeDocumentBackgroundColor:(id)sender;
 - (void)showMovie;
 - (void)setMoviePath:(NSOpenPanel*)panel returnCode:(int)returnCode contextInfo:(void *)contextInfo;
 

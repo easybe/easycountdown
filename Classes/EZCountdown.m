@@ -9,6 +9,8 @@
     [super init];
 
     theView = aView;
+    [theView setWantsLayer:YES];
+
     timeView = [[aView subviews] objectAtIndex:0];
 
     [timer invalidate];
@@ -16,8 +18,6 @@
                      userInfo:NULL repeats:YES];
 
     viewSize = [theView frame].size;
-
-    [timeView setTextColor:[NSColor blackColor]];
 
     defaults = [NSUserDefaults standardUserDefaults];
 
@@ -28,7 +28,10 @@
     NSString *fontName = [defaults objectForKey:@"fontName"];
     float fontBaseSize = [defaults floatForKey:@"fontSize"];
     [timeView setFont:[NSFont fontWithName:fontName size:fontBaseSize]];
-
+    NSColor *fgColor = (NSColor *)[NSUnarchiver unarchiveObjectWithData:[defaults objectForKey:@"fgColor"]];
+    [timeView setTextColor:fgColor];
+    NSColor *bgColor = (NSColor *)[NSUnarchiver unarchiveObjectWithData:[defaults objectForKey:@"bgColor"]];
+    theView.layer.backgroundColor = bgColor.CGColor;
     NSTimeInterval now = [NSDate timeIntervalSinceReferenceDate];
     end = [[defaults objectForKey:@"endDate"] timeIntervalSinceReferenceDate] + 1;
 

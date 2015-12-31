@@ -46,7 +46,21 @@
     NSFont *font = [fontManager convertFont:oldFont];
     [defaults setValue:font.fontName forKey:@"fontName"];
     [defaults setValue:[NSNumber numberWithFloat:font.pointSize] forKey:@"fontSize"];
-    return;
+}
+
+- (void)changeAttributes:(id)sender {
+    NSData *data = [defaults objectForKey:@"fgColor"];
+    NSColor *fgColor = (NSColor *)[NSUnarchiver unarchiveObjectWithData:data];
+    NSDictionary* oldAttrs = @{NSForegroundColorAttributeName:fgColor};
+    NSFontManager *fontManager = [NSFontManager sharedFontManager];
+    NSDictionary *attrs = [fontManager convertAttributes:oldAttrs];
+    data = [NSArchiver archivedDataWithRootObject:[attrs objectForKey:NSForegroundColorAttributeName]];
+    [defaults setObject:data forKey:@"fgColor"];
+}
+
+- (void)changeDocumentBackgroundColor:(id)sender {
+    NSData * data = [NSArchiver archivedDataWithRootObject:[sender color]];
+    [defaults setObject:data forKey:@"bgColor"];
 }
 
 - (void)countdownDidEnd:(NSNotification *) notification {

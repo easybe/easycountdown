@@ -7,8 +7,8 @@
 
 - (NSRect)adjustedFrameToVerticallyCenterText:(NSRect)frame {
     // super would normally draw text at the top of the cell
-    NSInteger offset = floor((NSHeight(frame) -
-           ([[self font] ascender] - [[self font] descender])) / 2);
+    CGFloat textHeight = MAX([[self font] ascender], [[self font] descender]) * 2;
+    NSInteger offset = floor((NSHeight(frame) - textHeight) / 2);
     return NSInsetRect(frame, 0.0, offset);
 }
 

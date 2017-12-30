@@ -91,19 +91,6 @@
 
     // TODO: find better solution
     window.contentView = movieView;
-
-    if ([mainView isInFullScreenMode]) {
-        [window.contentView enterFullScreenMode:[NSScreen mainScreen] withOptions:nil];
-        [mainView exitFullScreenModeWithOptions:nil];
-    }
-}
-
-- (IBAction)toggleFullScreen:(id)sender {
-    if ([window.contentView isInFullScreenMode] == NO) {
-        [window.contentView enterFullScreenMode:[NSScreen mainScreen] withOptions:nil];
-    } else {
-        [window.contentView exitFullScreenModeWithOptions:nil];
-    }
 }
 
 - (IBAction)selectMoviePath:(id)sender {
